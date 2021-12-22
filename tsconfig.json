@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "types": [
+            "node",
+            "@peeky/test"
+        ],
+        "lib": [
+            "ESNext"
+        ]
+    },
+    "include": ["src/**/*", "**/*.spec.ts"],
+    "exclude": ["node_modules"]
+}
